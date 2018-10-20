@@ -8,3 +8,21 @@
 3. POST /api/decode로 encode했던 jwt를 보내면 raw data를 반환
 
 4. DELETE /api/destroy로 encode했던 jwt를 보내면 jwt 삭제
+
+
+### 테스트 
+
+```javascript
+// http://localhost:8080/api/encode
+// http://localhost:8080/api/decode
+// http://localhost:8080/api/destroy
+
+// 예시 
+{
+	"name" : "jongin",
+	"age" : 25,
+	"gender" : "M",
+	"address" : "서울특별시 ㅇㅇ구 ㅇㅇㅇ로 123"
+}
+```
+
